@@ -6,3 +6,6 @@
 .idea
 /out/
 /build/
+/.gradle/
+/SuperuserLib.iml
+/local.properties
