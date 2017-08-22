@@ -1,0 +1,6 @@
+[clog]
+repository = "https://github.com/playmusicexporter/superuserlib"
+
+link-style = "github"
+
+infile = "CHANGELOG.md"

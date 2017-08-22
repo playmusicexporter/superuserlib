@@ -1,0 +1,33 @@
+buildscript {
+	repositories {
+		jcenter()
+		google()
+	}
+	dependencies {
+		classpath 'com.android.tools.build:gradle:3.0.0-beta2'
+	}
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '26.0.1'
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 26
+        versionName '1.0.0'
+    }
+    compileOptions {
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
+    }
+}
+
+repositories {
+	google()
+}
+
+dependencies {
+    implementation 'com.android.support:appcompat-v7:26.0.1'
+}
