@@ -3,9 +3,9 @@
 *.war
 *.ear
 *.aar
+*.iml
 .idea
 /out/
 /build/
 /.gradle/
-/SuperuserLib.iml
 /local.properties
